@@ -1,0 +1,1 @@
+Repositório referênte as aulas de laboratório do primeiro semestre de 2019.

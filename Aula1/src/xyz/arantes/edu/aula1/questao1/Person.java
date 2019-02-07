@@ -1,4 +1,4 @@
-package xyz.arantes.edu.aula1;
+package xyz.arantes.edu.aula1.questao1;
 
 public class Person {
 

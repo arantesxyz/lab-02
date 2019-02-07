@@ -35,7 +35,7 @@ public class Questao1 {
             System.out.println("    |   "+ ifn +" com "+ ifi +" anos                       |");
             System.out.println("    |   "+ imn +" com "+ imi +" anos                       |");
             System.out.println("    |                                                      |");
-            System.out.println("    |   " + abaixoDoPesoIdeal("f") + "% das mulheres tem o peso abaixo do ideal.|");
+            System.out.println("    |   " + abaixoDoPesoIdeal() + "% das mulheres tem o peso abaixo do ideal.|");
             System.out.println("      ====================================================\n");
 
             opcao = rd.nextInt();
@@ -52,13 +52,11 @@ public class Questao1 {
         }while (opcao != 0);
     }
 
-    private int abaixoDoPesoIdeal(String sexo) {
+    private int abaixoDoPesoIdeal() {
         int a = 0;
         for (Person p : people){
-            if (p.getSexo().equalsIgnoreCase(sexo)){
-                if (p.getImc() < 20){
-                    a++;
-                }
+            if (p.getImc() < 20){
+                a++;
             }
         }
         if (a == 0) {

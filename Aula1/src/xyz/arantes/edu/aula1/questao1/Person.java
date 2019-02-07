@@ -8,7 +8,7 @@ public class Person {
     private double peso;
     private String sexo;
 
-    public Person(String nome, int idade, double altura, double peso, String sexo){
+    Person(String nome, int idade, double altura, double peso, String sexo){
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
@@ -34,26 +34,6 @@ public class Person {
 
     public String getNome() {
         return nome;
-    }
-
-    public void setAltura(double altura) {
-        this.altura = altura;
-    }
-
-    public void setPeso(double peso) {
-        this.peso = peso;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
     }
 
     public double getImc(){

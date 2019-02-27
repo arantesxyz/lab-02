@@ -1,5 +1,6 @@
 package xyz.arantes.edu.lista1.questao17;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 import static xyz.arantes.edu.lista1.utils.Checker.isInt;

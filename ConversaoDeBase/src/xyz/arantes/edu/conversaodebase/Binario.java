@@ -6,6 +6,10 @@ public class Binario {
 
     private static Scanner in = new Scanner (System.in);
 
+    public static void main(String[] args){
+        new Binario().run();
+    }
+
     public void run() {
         int op   = 0;
         int aux = 0;

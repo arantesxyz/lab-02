@@ -6,6 +6,8 @@ public class Binario {
 
     private static Scanner in = new Scanner (System.in);
 
+    // TODO recriar uma clase main
+    // Este metodo foi apenas colocado nesta classe para resumir o programa em um unico arquivo.
     public static void main(String[] args){
         new Binario().run();
     }

@@ -8,15 +8,14 @@ public class Pessoa {
     public Pessoa(){
         this.nome = null;
         this.idade = 0;
-        this.cpf = null;
         this.sexo = 'n';
     }
 
     public Pessoa(String nome, String cpf, byte idade, char sexo){
         this.nome = nome;
-        this.cpf = cpf;
         this.idade = idade;
         this.sexo = sexo;
+        this.cpf = cpf;
     }
 
     public void setNome(String nome) {
@@ -46,14 +45,6 @@ public class Pessoa {
             return "Feminino";
         }
         return null;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
     }
 
     public boolean eMaior(){

@@ -41,5 +41,6 @@ public class Empresa extends PessoaJuridica {
 
     public void setPresidente(Funcionario presidente) {
         this.presidente = presidente;
+        presidente.setCargo("Presidente");
     }
 }

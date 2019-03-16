@@ -6,22 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041155e4-227b-46d8-846d-ed900e82b34c" name="Default" comment="Modificado para ficar tudo em uma classe só.">
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao2/AgenciaDeVeiculos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao2/Caminhao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao2/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao2/Fiat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao2/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="041155e4-227b-46d8-846d-ed900e82b34c" name="Default" comment="Classe foi movida sem querer.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PM_Exercicio1/src/xyz/arantes/edu/pmexercicio1/questao2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/PM_Exercicio1/src/xyz/arantes/edu/pmexercicio1/questao2/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,58 +18,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#468#469#0" expanded="true" />
-                    <element signature="e#499#500#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#700#701#0" expanded="true" />
-                    <element signature="e#731#732#0" expanded="true" />
-                    <element signature="e#781#782#0" expanded="true" />
-                    <element signature="e#816#817#0" expanded="true" />
-                    <element signature="e#871#872#0" expanded="true" />
-                    <element signature="e#911#912#0" expanded="true" />
-                    <element signature="e#978#979#0" expanded="true" />
-                    <element signature="e#1026#1027#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,12 +117,12 @@
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/empresas/Empresa.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/empresas/Clientes.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java" />
-        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Pessoa.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaFisica.java" />
-        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java" />
+        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" />
+        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" />
       </list>
     </option>
   </component>
@@ -222,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552772800515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552773615085" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -423,7 +398,7 @@
       <workItem from="1551223744374" duration="1654000" />
       <workItem from="1551473786483" duration="203000" />
       <workItem from="1551476013492" duration="2620000" />
-      <workItem from="1552768337442" duration="4295000" />
+      <workItem from="1552768337442" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado o primeiro projeto.">
       <created>1549359805285</created>
@@ -509,11 +484,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551478623997</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Terminado o exercício 3">
+      <created>1552772834522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552772834523</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Classe foi movida sem querer.">
+      <created>1552772895494</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552772895494</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52515000" />
+    <option name="totallyTimeSpent" value="53493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="2514" height="1096" extended-state="6" />
@@ -597,7 +586,9 @@
     <MESSAGE value="Lista 1 adicionada no github" />
     <MESSAGE value="Atualização, exercicio de modular" />
     <MESSAGE value="Modificado para ficar tudo em uma classe só." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificado para ficar tudo em uma classe só." />
+    <MESSAGE value="Terminado o exercício 3" />
+    <MESSAGE value="Classe foi movida sem querer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe foi movida sem querer." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Aula1/src/xyz/arantes/edu/aula1/questao4/Questao4.java">
@@ -756,13 +747,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConversaoDeBase/src/xyz/arantes/edu/conversaodebase/Main.java" />
-    <entry file="file://$PROJECT_DIR$/ConversaoDeBase/src/xyz/arantes/edu/conversaodebase/Binario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -881,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -909,12 +886,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConversaoDeBase/src/xyz/arantes/edu/conversaodebase/Binario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="731">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
@@ -923,17 +935,6 @@
             <element signature="e#911#912#0" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
             <element signature="e#1026#1027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>

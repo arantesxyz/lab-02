@@ -23,4 +23,12 @@ public class Funcionario {
     public String getCargo() {
         return cargo;
     }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
 }

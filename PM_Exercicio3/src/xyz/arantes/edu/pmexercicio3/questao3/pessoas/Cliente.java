@@ -17,7 +17,7 @@ public class Cliente {
     }
 
     public boolean isJuridica(){
-        return pessoaJ == null;
+        return pessoaJ != null;
     }
 
     public PessoaFisica getPessoaFisica(){

@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041155e4-227b-46d8-846d-ed900e82b34c" name="Default" comment="O cargo do funcionario agora é alterado quando o mesmo é definido como presidente.">
+    <list default="true" id="041155e4-227b-46d8-846d-ed900e82b34c" name="Default" comment="O cliente agora funciona tanto com pessoa fisica quanto juridica.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java" afterDir="false" />
     </list>
@@ -21,9 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
               </folding>
@@ -32,20 +33,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -111,11 +111,11 @@
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/empresas/Empresa.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/empresas/Clientes.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Pessoa.java" />
-        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaFisica.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Endereco.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Funcionario.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java" />
+        <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java" />
         <option value="$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java" />
       </list>
     </option>
@@ -191,14 +191,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552774285515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552870884739" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908046" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -393,7 +393,10 @@
       <workItem from="1551473786483" duration="203000" />
       <workItem from="1551476013492" duration="2620000" />
       <workItem from="1552768337442" duration="5944000" />
-      <workItem from="1552865745748" duration="384000" />
+      <workItem from="1552865745748" duration="854000" />
+      <workItem from="1552866623524" duration="790000" />
+      <workItem from="1552868836094" duration="165000" />
+      <workItem from="1552869019938" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado o primeiro projeto.">
       <created>1549359805285</created>
@@ -500,17 +503,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552773684116</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="O cliente agora funciona tanto com pessoa fisica quanto juridica.">
+      <created>1552866157428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552866157428</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54548000" />
+    <option name="totallyTimeSpent" value="57530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="2514" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18418908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18907906" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,6 +540,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="UML design tool window" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -540,6 +551,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255909" />
@@ -591,30 +603,10 @@
     <MESSAGE value="Terminado o exercício 3" />
     <MESSAGE value="Classe foi movida sem querer." />
     <MESSAGE value="O cargo do funcionario agora é alterado quando o mesmo é definido como presidente." />
-    <option name="LAST_COMMIT_MESSAGE" value="O cargo do funcionario agora é alterado quando o mesmo é definido como presidente." />
+    <MESSAGE value="O cliente agora funciona tanto com pessoa fisica quanto juridica." />
+    <option name="LAST_COMMIT_MESSAGE" value="O cliente agora funciona tanto com pessoa fisica quanto juridica." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Aula1/src/xyz/arantes/edu/aula1/questao4/Questao4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aula1/src/xyz/arantes/edu/aula1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aula1/src/xyz/arantes/edu/aula1/questao2/Questao2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lista1/src/xyz/arantes/edu/lista1/questao11/Questao11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -819,13 +811,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Main.java" />
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/empresas/Cliente.java" />
-    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaFisica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -873,28 +858,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/xyz.arantes.edu.pmexercicio3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xyz.arantes.edu.pmexercicio3</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">xyz.arantes.edu.pmexercicio3.questao2</node>
+            <node x="0.0" y="74.0">xyz.arantes.edu.pmexercicio3.questao3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-695.0" y="-164.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xyz.arantes.edu.pmexercicio3.questao3.pessoas.Cliente">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xyz.arantes.edu.pmexercicio3.questao3.pessoas.Cliente</OriginalElement>
+          <nodes>
+            <node x="" y="">xyz.arantes.edu.pmexercicio3.questao3.pessoas.Cliente</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-PM_Exercicio3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-PM_Exercicio3</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-PM_Exercicio3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/pessoas/PessoaJuridica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PM_Exercicio3/src/xyz/arantes/edu/pmexercicio3/questao3/Empresa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
           </folding>

@@ -1,0 +1,5 @@
+1. Por que é possível afirmar que, do ponto de vista da programação modular, a herança rompe a barreira do encapsulamento e aumenta o acoplamento?
+R: Não faço a menor ideia, por que ele não consegue acessar os atributos privados nem com herança.
+
+4. Em relação a questão 3, explique do ponto de vista teórico e de implementação, as implicações de se utilizar herança para implementar as classes Cliente e Funcionário.
+R: A classe funcionário pode herdar a classe "PessoaFisica" pois apenas ela é utilizada, no caso de cliente poderia estender "Pessoa" mas é meio desnecessário se for feita armazenando quem é quem. O problema de extender "pessoa" na classe "cliente" é que você perderá o acesso aos atributos mais específicos de "pessoaFisica" ou "PessoaJuridica".

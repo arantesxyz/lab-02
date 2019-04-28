@@ -1,0 +1,8 @@
+3. (FCC, 2004 - SAEB) No paradigma da orientação a objetos, é CORRETO afirmar que:
+    (a) Poliformismo é o processo pelo qual um objeto envia dados a outro objeto ou solicita a este objeto para invocar um método.
+    X(b) Encapsulamento é o recurso utilizado para separar aspectos internos e externos de um objeto, de modo a promover o princípio do ocultamento de informação.
+    (c) Interface é a representação abstrata de uma tela para interação com o usuário final.
+    (d) Sobrecarga é a capacidade de uma classe estender outra classe aproveitando-se de seus métodos e atributos.
+    (e) Herança é um princípio onde o comportamento de um objeto varia de acordo com a classe no qual o comportamento foi invocado, ou seja, duas ou mais classes podem reagir de forma diferente à mesma mensagem.
+
+    Resposta: Letra b
